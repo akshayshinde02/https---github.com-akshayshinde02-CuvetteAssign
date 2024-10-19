@@ -8,7 +8,7 @@ app.use(cors())
 app.use(bodyParser.json())
 // app.unsubscribe(bodyParser.json())
 
-mongoose.connect( "mongodb+srv://akshayshindepatil000:Akshay2409@cluster0.6npuwg6.mongodb.net/mydb",{
+mongoose.connect( "mongodb+srv://xyz:abc@cluster0.6npuwgjnadfjaf6.mongodb.net/mydb",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('Connected to MongoDB'))
